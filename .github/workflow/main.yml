@@ -1,0 +1,12 @@
+name : firstAction
+on :
+    push : 
+        branches : main
+jobs : 
+    build : 
+        runs-on : ubuntu-latest
+        steps : 
+            - name: saludar
+              run: echo "Hello, world!"
+            - name : despedirse
+              run : echo "good bye!"
