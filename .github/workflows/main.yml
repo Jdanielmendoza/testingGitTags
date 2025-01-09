@@ -19,7 +19,3 @@ jobs :
                 
                 See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
-          - name: saludar
-            run: echo "Hello, world!"
-          - name : despedirse
-            run : echo "good bye!"
